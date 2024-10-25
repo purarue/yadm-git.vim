@@ -9,7 +9,7 @@ Whenever a buffer is loaded, uses `yadm ls-files` to detect if the current file 
 
 When you stop editing the dotfile (switch to a file which `yadm` isn't tracking), it resets them back to the defaults (Fugitive does that automatically).
 
-For [gitsigns](https://github.com/lewis6991/gitsigns.nvim) yadm support, see [gitsigns-yadm.nvim](https://github.com/seanbreckenridge/gitsigns-yadm.nvim)
+For [gitsigns](https://github.com/lewis6991/gitsigns.nvim) yadm support, see [gitsigns-yadm.nvim](https://github.com/purarue/gitsigns-yadm.nvim)
 
 ## Install
 
@@ -21,7 +21,7 @@ For example, using [`lazy`](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    'seanbreckenridge/yadm-git.vim',
+    'purarue/yadm-git.vim',
     event = "BufWinEnter",
     config = function()
         vim.g.yadm_git_fugitive_enabled = 0

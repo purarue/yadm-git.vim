@@ -24,7 +24,7 @@ tracking), it resets them back to the defaults (Fugitive does that
 automatically).
 
 For gitsigns <https://github.com/lewis6991/gitsigns.nvim> yadm support, see
-gitsigns-yadm.nvim <https://github.com/seanbreckenridge/gitsigns-yadm.nvim>
+gitsigns-yadm.nvim <https://github.com/purarue/gitsigns-yadm.nvim>
 
 
 INSTALL                                                 *yadm-git.vim-install*
@@ -39,7 +39,7 @@ For example, using `lazy` <https://github.com/folke/lazy.nvim>
 
 >lua
     {
-        'seanbreckenridge/yadm-git.vim',
+        'purarue/yadm-git.vim',
         event = "BufWinEnter",
         config = function()
             vim.g.yadm_git_fugitive_enabled = 0
